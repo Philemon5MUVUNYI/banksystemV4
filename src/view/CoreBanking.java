@@ -79,7 +79,8 @@ public class CoreBanking {
 
                         break;
                     case 3:
-                        System.out.println("");
+                        BankAccountDao update = new BankAccountDao();
+                        update.updateRecord();
                         break;
                     case 4:
                         System.out.println("");
