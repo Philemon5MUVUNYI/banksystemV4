@@ -15,12 +15,7 @@ public class CoreBanking {
         double amount;
 
         boolean condition = true;
-
-
-
-
-
-            while (condition) {
+        while (condition) {
                 System.out.println("------------------------------------");
                 System.out.println("===Menu===");
                 System.out.println("1. Register account.");
